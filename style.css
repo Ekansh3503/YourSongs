@@ -156,28 +156,33 @@ nav ul li {
         content: "\f051";
         /* visibility: hidden; */
         display: none;
+        /* outline: none; */
     }
 
     .fa-step-backward:before {
         content: "\f048";
-        visibility: hidden;
+        /* visibility: hidden; */
         display: none;
+        /* outline: none; */
     }
 
     .bottom {
         padding: 9px;
+        position: sticky;
     }
 
     #masterPlay.fa-pause-circle:before {
         content: "\f28b";
-        left: 132px;
+        left: 155px;
         position: relative;
+        /* outline: none; */
     }
 
     #masterPlay.fa-play-circle:before {
         content: "\f144";
         left: 155px;
         position: relative;
+        /* outline: none; */
     }
 
     .songInfo {
@@ -189,4 +194,14 @@ nav ul li {
         display: flex;
 
     }
+    /* button:focus {
+        outline: none;
+      } */
+      /* .far, .fa-3x, .fa-pause-circle{
+        transition: none;
+      }
+      .far, .fa-3x, .fa-play-circle{
+        transition: none;
+      } */
+      
 }
