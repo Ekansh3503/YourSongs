@@ -21,6 +21,9 @@ nav ul {
     height: 65px;
     background-color: black;
     color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 nav ul li {
@@ -66,6 +69,9 @@ nav ul li {
     align-items: center;
     flex-direction: column;
     padding: 6px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 .icons {
